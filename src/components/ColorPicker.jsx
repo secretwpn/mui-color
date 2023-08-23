@@ -64,6 +64,7 @@ const ColorPicker = ({
   hslGradient,
   hideTextfield,
   disablePlainColor,
+  closeOnSelect
 }) => {
   const classes = useStyles();
   const refPicker = useRef(null);
@@ -91,7 +92,7 @@ const ColorPicker = ({
 
   const handleColorChange = newColor => {
     onChange(newColor);
-    if (deferred) {
+    if (deferred || closeOnSelect) {
       handleClose();
     }
   };
@@ -179,6 +180,7 @@ ColorPicker.propTypes = {
   hslGradient: PropTypes.bool,
   hideTextfield: PropTypes.bool,
   disablePlainColor: PropTypes.bool,
+  closeOnSelect: PropTypes.bool,
 };
 
 ColorPicker.defaultProps = {
@@ -194,6 +196,7 @@ ColorPicker.defaultProps = {
   hslGradient: false,
   hideTextfield: false,
   disablePlainColor: false,
+  closeOnSelect: true,
 };
 
 export default uncontrolled(ColorPicker);
