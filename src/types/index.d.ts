@@ -1,4 +1,4 @@
-declare module 'mui-color' {
+declare module '@secretwpn/mui-color' {
 
   enum ColorFormat {
     "plain",
@@ -48,6 +48,7 @@ declare module 'mui-color' {
     disableTextfield?: boolean;
     hideTextfield?: boolean;
     deferred?: boolean;
+    closeOnSelect?: boolean;
     palette?: any;
     inputFormats?: ColorFormat[];
     disableAlpha?: boolean;

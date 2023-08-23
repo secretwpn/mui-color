@@ -1,15 +1,27 @@
 {
   "name": "@secretwpn/mui-color",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "The lightest colorpicker for React Mui v5. No dependencies. It uses Hooks and support Typescript, and more !",
   "main": "index.js",
-  "module": "./esm/index.js",
-  "typings": "index.d.ts",
+  "module": "dist/esm/index.js",
+  "typings": "dist/index.d.ts",
+  "types": "dist/index.d.ts",
   "homepage": "https://mikbry.github.io/mui-color/",
   "repository": "https://github.com/mikbry/mui-color.git",
   "bugs": "https://github.com/mikbry/mui-color/issues",
   "author": "Mik <mik@miklabs.com>",
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "contributors": [
+    {
+      "name": "Mik"
+    },
+    {
+      "name": "secretwpn"
+    }
+  ],
   "keywords": [
     "react",
     "color picker",
