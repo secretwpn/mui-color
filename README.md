@@ -8,45 +8,53 @@
 [![dependency status][deps-svg]][deps-url]
 [![dev dependency status][dev-deps-svg]][dev-deps-url]
 [![peer dependency status][peer-deps-svg]][peer-deps-url]
-[![Downloads][downloads-image]][downloads-url]
 
-[action-image]: https://github.com/mikbry/mui-color/workflows/Build%20and%20Deploy/badge.svg
-[action-url]: https://mikbry.github.io/mui-color/
-[codecov-image]: https://codecov.io/gh/mikbry/mui-color/branch/master/graph/badge.svg?token=K4P0vnM5fh
-[codecov-url]: https://codecov.io/gh/mikbry/mui-color
+[action-image]: https://github.com/secretwpn/mui-color/workflows/Build%20and%20Deploy/badge.svg
+[action-url]: https://secretwpn.github.io/mui-color/
+[codecov-image]: https://codecov.io/gh/secretwpn/mui-color/branch/master/graph/badge.svg?token=K4P0vnM5fh
+[codecov-url]: https://codecov.io/gh/secretwpn/mui-color
 [npm-image]: https://img.shields.io/npm/v/mui-color.svg
 [npm-url]: https://npmjs.org/package/mui-color
-[license-image]: https://img.shields.io/github/license/mikbry/mui-color
-[License-url]:https://github.com/mikbry/mui-color/blob/master/LICENSE
+[license-image]: https://img.shields.io/github/license/secretwpn/mui-color
+[License-url]:https://github.com/secretwpn/mui-color/blob/master/LICENSE
 [min-image]:https://badgen.net/bundlephobia/min/mui-color
 [min-url]:https://bundlephobia.com/result?p=mui-color
-[deps-svg]: https://david-dm.org/mikbry/mui-color.svg
-[deps-url]: https://david-dm.org/mikbry/mui-color
-[dev-deps-svg]: https://david-dm.org/mikbry/mui-color/dev-status.svg
-[dev-deps-url]: https://david-dm.org/mikbry/mui-color#info=devDependencies
-[peer-deps-svg]: https://david-dm.org/mikbry/mui-color/peer-status.svg
-[peer-deps-url]: https://david-dm.org/mikbry/mui-color#info=peerDependencies
-[downloads-image]: http://img.shields.io/npm/dm/mui-color.svg
-[downloads-url]: http://npm-stat.com/charts.html?package=mui-color
+[deps-svg]: https://david-dm.org/secretwpn/mui-color.svg
+[deps-url]: https://david-dm.org/secretwpn/mui-color
+[dev-deps-svg]: https://david-dm.org/secretwpn/mui-color/dev-status.svg
+[dev-deps-url]: https://david-dm.org/secretwpn/mui-color#info=devDependencies
+[peer-deps-svg]: https://david-dm.org/secretwpn/mui-color/peer-status.svg
+[peer-deps-url]: https://david-dm.org/secretwpn/mui-color#info=peerDependencies
 
-# Preview port of Material-ui-color to Mui v5
+
+# Preview port of Material-ui-color to MUI v5
 
 > Collections of color components for [material-ui](https://github.com/mui-org/material-ui). No dependencies, small, highly customizable and theming support !
 
-
+This fork differs from the original version by @mikbry just with one extra prop `closeOnSelect` that closes the picker upon selecting color
 
 ![Video of ColorPicker](./images/muicc-v0-2.webp)
 
 ## Contents
 
-- [Why another ColorPicker?](#why-another-colorpicker)
-- [Documentation](#documentation)
-- [Requirements](#requirements)
-- [Install](#install)
-- [Usage](#usage)
-- [Roadmap](#roadmap)
-- [Contribute](#contribute)
-- [License](#license)
+- [`mui-color` picker and other components](#mui-color-picker-and-other-components)
+- [Preview port of Material-ui-color to MUI v5](#preview-port-of-material-ui-color-to-mui-v5)
+  - [Contents](#contents)
+  - [Why another ColorPicker ?](#why-another-colorpicker-)
+  - [Documentation](#documentation)
+    - [Examples](#examples)
+  - [Requirements](#requirements)
+  - [Install](#install)
+  - [Usage](#usage)
+    - [`<ColorPicker/>`](#colorpicker)
+    - [`<ColorBox />`](#colorbox-)
+    - [`<ColorInput />`](#colorinput-)
+    - [`<ColorPalette />`](#colorpalette-)
+    - [`<ColorButton />`](#colorbutton-)
+  - [Roadmap](#roadmap)
+    - [v1.0.0 - Current version](#v100---current-version)
+  - [Contribute](#contribute)
+  - [License](#license)
 
 ## Why another ColorPicker ?
 
@@ -60,7 +68,7 @@
 
 Full documentation is available here :
 
-https://mikbry.github.io/mui-color/
+https://secretwpn.github.io/mui-color/
 
 ### Examples 
 
@@ -118,7 +126,7 @@ export const Container = () => (
 
 At first it display a button + an input
 
-[ColorPicker documentation](https://mikbry.github.io/mui-color/?path=/story/components-colorpicker--basic)
+[ColorPicker documentation](https://secretwpn.github.io/mui-color/?path=/story/components-colorpicker--basic)
 
 ### `<ColorBox />`
 
@@ -133,7 +141,7 @@ export const Container = () => (
 );
 ```
 
-[ColorBox documentation](https://mikbry.github.io/mui-color/?path=/story/components-colorbox--basic)
+[ColorBox documentation](https://secretwpn.github.io/mui-color/?path=/story/components-colorbox--basic)
 
 ### `<ColorInput />`
 
@@ -149,7 +157,7 @@ export const Container = () => (
 );
 ```
 
-[ColorInput documentation](https://mikbry.github.io/mui-color/?path=/story/components-colorinput--basic)
+[ColorInput documentation](https://secretwpn.github.io/mui-color/?path=/story/components-colorinput--basic)
 
 ### `<ColorPalette />`
 
@@ -181,7 +189,7 @@ export const Container = () => (
 );
 ```
 
-[ColorPalette documentation](https://mikbry.github.io/mui-color/?path=/story/components-colorpalette--basic)
+[ColorPalette documentation](https://secretwpn.github.io/mui-color/?path=/story/components-colorpalette--basic)
 
 ### `<ColorButton />`
 
@@ -197,11 +205,11 @@ export const Container = () => (
 );
 ```
 
-[ColorButton documentation](https://mikbry.github.io/mui-color/?path=/story/components-colorbutton--basic)
+[ColorButton documentation](https://secretwpn.github.io/mui-color/?path=/story/components-colorbutton--basic)
 
 ## Roadmap
 
-### v1.0.0 - [Current version](https://github.com/mikbry/mui-color/releases/tag/v1.0.0)
+### v1.0.0 - [Current version](https://github.com/secretwpn/mui-color/releases/tag/v1.0.0)
 - remove `styled-components` to have less dependencies and reduce size
 - display wrong color using a red checked box
 - bugs fixes
