@@ -1,32 +1,5 @@
 # `mui-color` picker and other components
 
-[![Build Status][action-image]][action-url]
-[![codecov][codecov-image]][codecov-url]
-[![NPM version][npm-image]][npm-url]
-[![License][license-image]][license-url]
-[![minisize][min-image]][min-url]
-[![dependency status][deps-svg]][deps-url]
-[![dev dependency status][dev-deps-svg]][dev-deps-url]
-[![peer dependency status][peer-deps-svg]][peer-deps-url]
-
-[action-image]: https://github.com/secretwpn/mui-color/workflows/Build%20and%20Deploy/badge.svg
-[action-url]: https://secretwpn.github.io/mui-color/
-[codecov-image]: https://codecov.io/gh/secretwpn/mui-color/branch/master/graph/badge.svg?token=K4P0vnM5fh
-[codecov-url]: https://codecov.io/gh/secretwpn/mui-color
-[npm-image]: https://img.shields.io/npm/v/mui-color.svg
-[npm-url]: https://npmjs.org/package/mui-color
-[license-image]: https://img.shields.io/github/license/secretwpn/mui-color
-[License-url]:https://github.com/secretwpn/mui-color/blob/master/LICENSE
-[min-image]:https://badgen.net/bundlephobia/min/mui-color
-[min-url]:https://bundlephobia.com/result?p=mui-color
-[deps-svg]: https://david-dm.org/secretwpn/mui-color.svg
-[deps-url]: https://david-dm.org/secretwpn/mui-color
-[dev-deps-svg]: https://david-dm.org/secretwpn/mui-color/dev-status.svg
-[dev-deps-url]: https://david-dm.org/secretwpn/mui-color#info=devDependencies
-[peer-deps-svg]: https://david-dm.org/secretwpn/mui-color/peer-status.svg
-[peer-deps-url]: https://david-dm.org/secretwpn/mui-color#info=peerDependencies
-
-
 # Preview port of Material-ui-color to MUI v5
 
 > Collections of color components for [material-ui](https://github.com/mui-org/material-ui). No dependencies, small, highly customizable and theming support !
